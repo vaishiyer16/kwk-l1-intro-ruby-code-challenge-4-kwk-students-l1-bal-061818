@@ -2,10 +2,10 @@
 
 def least_coins(cents)
 least_coins = {
-  "quarters" => 0,
-  "dime" => 0,
-  "nickels" => 0,
-  "pennies" => 0
+  :quarters => 0,
+  :dime => 0,
+  :nickels => 0,
+  :pennies => 0
 }
   while cents >= 25
   least_coins[:quarters] += 1

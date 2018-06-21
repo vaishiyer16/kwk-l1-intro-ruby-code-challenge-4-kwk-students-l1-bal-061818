@@ -3,7 +3,7 @@
 def least_coins(cents)
 least_coins = {
   :quarters => 0,
-  :dime => 0,
+  :dimes => 0,
   :nickels => 0,
   :pennies => 0
 }

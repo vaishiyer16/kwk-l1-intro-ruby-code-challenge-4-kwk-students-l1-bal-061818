@@ -12,7 +12,7 @@ least_coins = {
   cents -= 25
   end
   while cents >= 10
-    least_coins[:dime] += 1
+    least_coins[:dimes] += 1
     cents -= 10
     end
   while cents >= 5

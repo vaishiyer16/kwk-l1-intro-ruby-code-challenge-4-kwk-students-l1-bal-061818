@@ -23,5 +23,6 @@ while cents >= 25
     least_coins["dime"] += 1
     cents -= 1
   end
+  puts least_coins
 end
 least_coins(29)

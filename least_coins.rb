@@ -7,7 +7,7 @@ least_coins = {
   "nickels" => 0,
   "pennies" => 0
 }
-while cents >= 25
+  while cents >= 25
   least_coins["quarters"] += 1
   cents -= 25
   end

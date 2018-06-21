@@ -25,4 +25,4 @@ while cents >= 25
   end
   puts least_coins
 end
-least_coins(29)
+least_coins(500)

@@ -20,7 +20,7 @@ least_coins = {
     cents -= 5
   end
   while cents >= 1
-    least_coins["dime"] += 1
+    least_coins["pennies"] += 1
     cents -= 1
   end
   puts least_coins

@@ -25,4 +25,4 @@ least_coins = {
   end
   puts least_coins
 end
-least_coins(500)
+least_coins(29)

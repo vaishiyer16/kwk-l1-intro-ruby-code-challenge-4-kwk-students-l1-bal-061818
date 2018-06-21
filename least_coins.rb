@@ -24,4 +24,4 @@ while cents >= 25
     cents -= 1
   end
 end
-puts least_coins(29)
+least_coins(29)
